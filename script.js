@@ -1,3 +1,4 @@
+var container = document.getElementsByClassName("container-fluid");
 // Section for adding a noun
 // Text field for the noun
 var nounText = document.createElement("textarea");
@@ -18,4 +19,4 @@ btn.addEventListener('click', function(event) {
 
 var nounEnd = localStorage.getItem('noun');
 var madLib = "I wanted to laugh but then I saw " + nounEnd;
-document.body.appendChild(madLib);
+document.body.container.appendChild(madLib);
