@@ -1,4 +1,19 @@
-.container-fluid {
+body {
+    background-image: url('backgroundimage.jpg');
+    background-repeat: repeat;
+}
+
+header {
+    text-align: center;
+    padding: 2% 0%;
+    background-color: white;
+}
+
+main {
+    height: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
+    background-color: white;
 }
