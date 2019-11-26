@@ -31,5 +31,11 @@ btn.addEventListener('click', function(event) {
 
     // Append to madlibs section in HTML
     document.getElementById("madlibs").appendChild(container);
-})
 
+    // Creating Button and Appending to MadLibs div
+    var Nextbtn = document.createElement("Button");
+    Nextbtn.innerHTML = "<a href='indexv2.html'> Next Level </a>";
+    newline = document.createElement("br");
+    document.getElementById("madlibs").appendChild(newline);
+    document.getElementById("madlibs").appendChild(Nextbtn);
+})
