@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="container">
     <header>
         <h1>Let's play Mad Libs!</h1>
         <h2>Fill out the text boxes and your Mad Lib will appear</h2>
@@ -17,14 +18,15 @@
     </header>
 
     <main>
-        <section class="container" id="madlibs">
-           Name: <input id="name" type="text"><br><br>
-           Adjective: <input id="adjective" type="text"><br><br>
-           Noun: <input id="noun" type="text"><br><br>
+        <section id="madlibs">
+           <span>Name:</span> <input id="name" type="text"><br><br>
+           <span>Adjective:</span> <input id="adjective" type="text"><br><br>
+           <span>Noun:</span> <input id="noun" type="text"><br><br>
            <input id="button" value="Finished!" type="button">
         </section>
-        <section class="container" id="madLibStory"></section>
+        <section id="madLibStory"></section>
     </main>
+    </div>
 
     <script src="scripts.js"></script>
 </body>
