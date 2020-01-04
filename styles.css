@@ -48,4 +48,6 @@ section span {
     padding-top: 2%;
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
+    border-radius: 2%;
+    background-color: #f3efea;
 }

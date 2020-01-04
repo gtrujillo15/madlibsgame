@@ -11,4 +11,12 @@ btn.addEventListener('click', function(story) {
     madlib += "Sometimes " + noun.value;
     madlib += " makes me burp."
     madLibStory.innerHTML = madlib;
+
+    // Creating Button and Appending to MadLibs div
+    newline = document.createElement("br");
+    var lastButton = document.createElement("Button");
+    lastButton.innerHTML = "<a href='indexv3.html'> Last Level! </a>";
+    newline = document.createElement("br");
+    document.getElementById("madLibStory").appendChild(newline);
+    document.getElementById("madLibStory").appendChild(lastButton);
 });
