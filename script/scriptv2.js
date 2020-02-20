@@ -6,10 +6,7 @@ var madLibStory = document.getElementById("madLibStory");
 
 btn.addEventListener('click', function(story) {
     madlib = "";
-    madlib += "My name is " + user.value;
-    madlib += " and I stay awake " + adjective.value + ". ";
-    madlib += "Sometimes " + noun.value;
-    madlib += " makes me burp."
+    madlib += "My name is " + user.value + " and I stay awake " + adjective.value + ". Sometimes " + noun.value + " makes me burp.";
     madLibStory.innerHTML = madlib;
 
     // Creating Button and Appending to MadLibs div
